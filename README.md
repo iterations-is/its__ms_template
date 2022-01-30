@@ -1,6 +1,7 @@
 # Iterations / Microservice Template
 
 ## Development
+
 ```shell
 yarn
 # First run may fail due to missing build files.
@@ -8,6 +9,7 @@ yarn dev
 ```
 
 ## Docker
+
 ```shell
 # Create an .env file with the appropriate environment variables.
 cp .env.example .env
