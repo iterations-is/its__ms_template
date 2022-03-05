@@ -6,6 +6,10 @@
     "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["es2015", "es2018"],
+    "downlevelIteration": true
   }
 }
