@@ -12,7 +12,7 @@ export const epExampleExternal = async (req: Request, res: Response) => {
 	if (error) return res.status(400).json(error);
 
 	// Logic
-	const userId = res.locals.userId;
+	// const userId = res.locals.userId;
 
 	try {
 		return res.status(200).json({ message: '' });
